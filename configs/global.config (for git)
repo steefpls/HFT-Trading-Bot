@@ -1,0 +1,34 @@
+# Update strategy here
+StrategyName=chameleon
+
+# Broker choices: TIGER, MOOMOO, BACKTEST, BT_DAY
+BrokerName=BACKTEST
+
+Discord_Notify = false
+#------------------Backtest Only
+
+# Type stock ticker separated by space (eg. nvda aapl)
+Tickers=QQQ
+# Type Start Date (eg. 1 feb 2024)
+StartDate=30 apr 2000
+# Type Finish Date (exclusive, eg. 2 feb 2024)
+FinishDate=30 apr 2024
+
+TickResolution=1
+BrokerForFees=TIGER
+Funds=100000
+DeleteOldSessions=false
+SaveImage=false
+Time=2
+
+# SMA period in seconds, 0 to turn off
+SMA1=3600
+SMA1Color=blue
+SMA2=0
+SMA2Color=red
+
+# RSI period in the following format: 1s, 1min. 0 to turn off
+RSI=30s
+RSIColor=red
+RSIOverbought=80
+RSIOversold=20
